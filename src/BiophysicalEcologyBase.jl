@@ -1,5 +1,16 @@
 module BiophysicalEcologyBase
 
-# Write your package code here.
+export AbstractEnvironment
+export AbstractPhysiology
+export AbstractMorphology
+export AbstractBehavior
+
+abstract type AbstractEnvironment end
+
+abstract type AbstractPhysiology end
+
+abstract type AbstractMorphology end
+
+abstract type AbstractBehavior end
 
 end
